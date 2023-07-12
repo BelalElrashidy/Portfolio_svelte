@@ -1,7 +1,6 @@
 // place files you want to import through the `$lib` alias in this folder.
 import type {Data} from '$lib/Data';
 export { Data };
-import moment  from'moment';
 
 export async function comic(): Promise<Data> {
     {

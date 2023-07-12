@@ -1,4 +1,5 @@
 <script>
+	import Comic from './comic.svelte';
 </script>
 
 <section class="flex row Bio">
@@ -37,10 +38,7 @@
 		</article>
 	</div>
 </main>
-<section class="joke">
-	<h2>Comic</h2>
-	<a href="comics">Click Here</a>
-</section>
+<Comic />
 
 <style>
 	.flex {
