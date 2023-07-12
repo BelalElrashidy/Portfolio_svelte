@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Node.js v16 (or another version)
+      - name: Setup Node.js v18
         uses: actions/setup-node@v3
         with:
           node-version: '18' # (or another version)
