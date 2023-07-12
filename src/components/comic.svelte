@@ -1,7 +1,6 @@
 <script context="module">
 	import { comic } from '$lib/index';
 	const data = await comic();
-	const date = moment(data.year).fromNow();
 </script>
 
 <script>
@@ -11,7 +10,7 @@
 <div id="data" class="jokes">
 	<h2>{data.safe_title}</h2>
 	<img src={data.img} alt={data.alt} />
-	<p>{date}</p>
+	<p>{moment(data.year).fromNow()}</p>
 </div>
 
 <style>
