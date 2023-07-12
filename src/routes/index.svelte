@@ -1,5 +1,4 @@
 <script>
-	import Cosmic from '../components/comic.svelte';
 	import Home from '../components/home.svelte';
 </script>
 

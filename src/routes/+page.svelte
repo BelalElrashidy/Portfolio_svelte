@@ -1,9 +1,10 @@
 <script>
-	import Comic from '../components/comic.svelte';
 	import Home from '../components/home.svelte';
 </script>
 
-<Home />
+<body>
+	<Home />
+</body>
 
 <style>
 	* {

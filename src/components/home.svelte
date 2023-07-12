@@ -95,26 +95,4 @@
 
 		padding: 30px;
 	}
-
-	.joke {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin-bottom: 5rem;
-		margin-top: 5rem;
-		gap: 3rem;
-	}
-	.joke h2 {
-		color: #3d3939;
-	}
-	.joke a {
-		background-color: #faa916;
-		color: #f5f5f5;
-		padding: 1rem 2.5rem;
-		border-radius: 10px;
-		text-decoration: none;
-		font-weight: 600;
-		box-shadow: 5px 2px 2px #3d3939;
-	}
 </style>
