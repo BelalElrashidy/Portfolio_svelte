@@ -3,7 +3,7 @@ name: Deploy on GitHub Pages
 on:
   push:
     branches:
-      - master # (replace with main if you prefer)
+      - main # (replace with main if you prefer)
 
 permissions:
   contents: write
@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js v16 (or another version)
         uses: actions/setup-node@v3
         with:
-          node-version: '16' # (or another version)
+          node-version: '18' # (or another version)
       - name: Install dependencies
         run: npm install
       - name: Lint
