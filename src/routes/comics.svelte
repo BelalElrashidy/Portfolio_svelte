@@ -3,7 +3,9 @@
 	import Home from '../components/home.svelte';
 </script>
 
-<Home />
+<body>
+	<Comic />
+</body>
 
 <style>
 	* {
