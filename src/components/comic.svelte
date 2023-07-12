@@ -1,12 +1,11 @@
 <script context="module">
-	import moment from 'moment';
-
 	import { comic } from '$lib/index';
 	const data = await comic();
 	const date = moment(data.year).fromNow();
 </script>
 
 <script>
+	import moment from 'moment';
 </script>
 
 <div id="data" class="jokes">
